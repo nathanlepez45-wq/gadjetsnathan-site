@@ -1,0 +1,31 @@
+GADJETSNATHAN — EXTENSION GRATUITE
+
+Téléchargement : hack-browser-extension.zip
+Navigateurs : Microsoft Edge et Google Chrome (Manifest V3)
+Nom de l’extension : gadjetsnathan
+Version : 1.10.0
+
+INSTALLATION
+1. Télécharge hack-browser-extension.zip et décompresse-le dans un dossier facile à retrouver.
+2. Dans Edge, ouvre edge://extensions. Dans Chrome, ouvre chrome://extensions.
+3. Active le mode développeur.
+4. Clique sur « Charger l’extension non empaquetée » et sélectionne le dossier décompressé.
+5. Actualise les pages ouvertes pour faire apparaître le bouton Gadgets.
+
+CONFIDENTIALITÉ
+Les gadgets s’exécutent dans le navigateur. L’extension ne transmet pas tes recherches à un serveur qui lui appartient. Elle demande l’accès aux pages web pour afficher ses contrôles et modifier l’apparence quand tu le demandes. Les images de fond chargent des images depuis Unsplash. Certains gadgets ouvrent Google, YouTube, Disney+ ou Google Traduction.
+
+Le mini-studio propose la synthèse vocale intégrée au navigateur. Le calibrage vocal active le micro uniquement après un clic et garde les enregistrements en mémoire temporaire de la page ; ils ne sont pas transmis à un serveur et sont effacés à la fermeture du studio. Ce calibrage n’est pas un clonage vocal.
+
+Les morceaux du mini-studio sont sauvegardés dans le stockage local de l’extension sur l’appareil. Ils ne sont pas envoyés à un serveur. L’extension utilise l’autorisation de stockage pour conserver cette bibliothèque.
+
+L’assistant musical peut utiliser un titre de chanson ou un lien comme inspiration textuelle afin de composer une boucle originale. Il ne lit, ne télécharge et ne copie pas le morceau lié.
+
+COMMENTAIRES & IDÉES
+Le formulaire prépare un e-mail dans l’application configurée par le visiteur. Le visiteur doit lui-même relire et envoyer son message. Le site affiche également les coordonnées de contact fournies par son propriétaire.
+
+DISTRIBUTION
+Ce site est un site statique prêt à être hébergé. Il n’est pas publié automatiquement sur Internet.
+
+NOUVEAUX GADGETS
+Calculatrice rapide, liste de tâches enregistrée sur l’appareil, tirage au sort, lecture vocale du texte sélectionné et générateur de dégradés CSS.
