@@ -1,6 +1,6 @@
 (() => {
   // Set only after the private Cloudflare Worker is live.
-  const API_URL = "";
+  const API_URL = "https://gadjetsnathan-api.nathanlepez45.workers.dev";
   const choiceKey = "gadjetsnathan_stats_choice";
   const ownerKey = "gadjetsnathan_creator_device";
   const tokenKey = "gadjetsnathan_admin_token";
