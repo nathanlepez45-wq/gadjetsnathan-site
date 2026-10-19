@@ -3,7 +3,7 @@ GADJETSNATHAN — EXTENSION GRATUITE
 Téléchargement : hack-browser-extension.zip
 Navigateurs : Microsoft Edge et Google Chrome (Manifest V3)
 Nom de l’extension : gadjetsnathan
-Version : 1.10.0
+Version : 1.11.0
 
 INSTALLATION
 1. Télécharge hack-browser-extension.zip et décompresse-le dans un dossier facile à retrouver.
@@ -29,3 +29,6 @@ Ce site est un site statique prêt à être hébergé. Il n’est pas publié au
 
 NOUVEAUX GADGETS
 Calculatrice rapide, liste de tâches enregistrée sur l’appareil, tirage au sort, lecture vocale du texte sélectionné et générateur de dégradés CSS.
+
+ATELIER IA VIDÉO & MINI-JEUX
+L’extension crée un mini-jeu de réflexes directement dans la page. Pour un jeu plus complet, elle prépare un prompt à coller dans ChatGPT. Pour la vidéo, elle prépare un prompt et ouvre Google Flow ; le rendu est effectué par Flow, selon l’accès et les fonctionnalités disponibles sur le compte et dans la région.
