@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="demo.css">
   <link rel="stylesheet" href="feedback.css">
+  <link rel="stylesheet" href="analytics.css">
 </head>
 <body>
   <header class="topbar"><a class="brand" href="#accueil"><span class="brand-mark">N</span> gadjetsnathan<span class="free-tag">GRATUIT</span></a><a class="top-link" href="#installation">Installation ↗</a></header>
@@ -55,6 +56,10 @@
       <ol class="steps"><li><span>1</span><div><b>Télécharge et décompresse le ZIP</b><p>Garde le dossier extrait quelque part de facile à retrouver.</p></div></li><li><span>2</span><div><b>Ouvre la page des extensions</b><p>Edge : <code>edge://extensions</code> · Chrome : <code>chrome://extensions</code>. Active le mode développeur.</p></div></li><li><span>3</span><div><b>Charge le dossier</b><p>Clique sur « Charger l’extension non empaquetée » et sélectionne le dossier extrait.</p></div></li></ol>
     </section>
 
+    <section class="signup" id="statistiques">
+      <div class="section-heading"><p class="eyebrow">COMPTEURS DU SITE</p><h2>Visites et téléchargements, tout simplement.</h2><p>Les compteurs sont en cours de raccordement et ne collectent encore rien. Une fois activés, ils ne compteront qu’avec ton accord, sans nom, e-mail ni adresse IP. Le navigateur du créateur sera exclu depuis son espace privé.</p></div>
+    </section>
+
     <section class="feedback" id="idees">
       <div class="feedback-intro"><p class="eyebrow">TON AVIS COMPTE</p><h2>Une idée pour la suite ?</h2><p>Tu as repéré un bug, une suggestion ou une idée d’extension drôle ? Envoie-moi un mot !</p>
         <div class="feedback-contact"><a href="mailto:nathan.lepez45@gmail.com">✉️ nathan.lepez45@gmail.com</a><a href="https://wa.me/33661778676" target="_blank" rel="noopener noreferrer">💬 WhatsApp · 06 61 77 86 76</a></div>
@@ -69,10 +74,26 @@
       </form>
     </section>
 
-    <section class="privacy"><span>🔒</span><div><b>À propos de la confidentialité</b><p>Les gadgets tournent dans le navigateur et ne transmettent pas tes recherches à un serveur de cette extension. Elle demande l’accès aux pages web pour y afficher ses boutons. Les thèmes photo utilisent des images externes, et les gadgets de recherche ouvrent les services que tu choisis.</p></div></section>
+    <section class="privacy"><span>🔒</span><div><b>À propos de la confidentialité</b><p>Les gadgets tournent dans le navigateur et ne transmettent pas tes recherches à un serveur de cette extension. Lorsque les compteurs seront activés, ton accord sera demandé et seuls des totaux journaliers de visites et de clics sur les téléchargements seront conservés ; aucun nom, e-mail, adresse IP ni identifiant individuel ne sera enregistré. Cloudflare recevra les requêtes nécessaires au service. Le créateur pourra exclure son navigateur depuis son espace privé.</p><button class="stats-change" id="stats-change" type="button">Modifier mon choix pour les statistiques</button></div></section>
   </main>
-  <footer><a class="brand" href="#accueil"><span class="brand-mark">N</span> gadjetsnathan</a><span>Une petite extension gratuite, faite pour s’amuser. ✨</span><a href="README.txt">Infos & installation</a></footer>
+  <section class="creator-panel" id="creator-panel" hidden aria-labelledby="creator-title">
+    <div class="creator-card">
+      <div class="creator-head"><div><p class="eyebrow">ACCÈS PRIVÉ</p><h2 id="creator-title">Espace créateur</h2></div><button class="creator-close" id="creator-close" aria-label="Fermer">×</button></div>
+      <p>Connecte-toi avec le secret configuré pour le service privé. Les statistiques ne sont visibles qu’après vérification par le serveur.</p>
+      <label for="creator-token">Secret créateur</label><input id="creator-token" type="password" autocomplete="off" placeholder="Secret Cloudflare" spellcheck="false">
+      <button class="button primary" id="creator-login" type="button">Voir les statistiques</button>
+      <button class="creator-logout" id="creator-logout" type="button">Se déconnecter</button>
+      <p class="creator-status" id="creator-status" aria-live="polite"></p>
+      <div class="creator-stats" id="creator-results"></div>
+    </div>
+  </section>
+  <aside class="stats-consent" id="stats-consent" hidden aria-label="Choix des statistiques">
+    <div><strong>Statistiques anonymes</strong><p>Si tu acceptes, le site comptera tes visites et tes clics de téléchargement. Aucun nom, e-mail, adresse IP ni identifiant individuel n’est conservé. Tu peux refuser.</p></div>
+    <div class="stats-actions"><button id="stats-refuse" type="button">Refuser</button><button id="stats-accept" type="button">Accepter</button></div>
+  </aside>
+  <footer><a class="brand" href="#accueil"><span class="brand-mark">N</span> gadjetsnathan</a><span>Une petite extension gratuite, faite pour s’amuser. ✨</span><a href="README.txt">Infos & installation</a><a href="?creator=1#creator-panel" id="creator-link">🔐 Espace créateur</a></footer>
   <script src="demo.js"></script>
   <script src="feedback.js"></script>
+  <script src="analytics.js"></script>
 </body>
 </html>

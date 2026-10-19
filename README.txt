@@ -24,8 +24,11 @@ L’assistant musical peut utiliser un titre de chanson ou un lien comme inspira
 COMMENTAIRES & IDÉES
 Le formulaire prépare un e-mail dans l’application configurée par le visiteur. Le visiteur doit lui-même relire et envoyer son message. Le site affiche également les coordonnées de contact fournies par son propriétaire.
 
+STATISTIQUES DU SITE
+Le site propose uniquement des compteurs de visites et de clics sur les téléchargements. Ils ne démarrent qu’après l’accord du visiteur. Aucun nom, e-mail, adresse IP ou identifiant individuel n’est enregistré. Le créateur peut ouvrir son espace pour exclure son navigateur des compteurs et consulter les totaux avec son secret privé.
+
 DISTRIBUTION
-Ce site est un site statique prêt à être hébergé. Il n’est pas publié automatiquement sur Internet.
+Le site public est publié avec GitHub Pages. Les compteurs privés utilisent un Worker Cloudflare et une base D1 ; ils seront actifs après déploiement du Worker et raccordement de l’URL dans le site. Les fichiers de configuration sont dans le dossier site-analytics.
 
 NOUVEAUX GADGETS
 Calculatrice rapide, liste de tâches enregistrée sur l’appareil, tirage au sort, lecture vocale du texte sélectionné et générateur de dégradés CSS.
