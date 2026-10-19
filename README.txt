@@ -3,7 +3,7 @@ GADJETSNATHAN — EXTENSION GRATUITE
 Téléchargement : hack-browser-extension.zip
 Navigateurs : Microsoft Edge et Google Chrome (Manifest V3)
 Nom de l’extension : gadjetsnathan
-Version : 1.11.0
+Version : 1.11.1
 
 INSTALLATION
 1. Télécharge hack-browser-extension.zip et décompresse-le dans un dossier facile à retrouver.
