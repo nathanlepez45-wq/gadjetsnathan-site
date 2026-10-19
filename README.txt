@@ -28,7 +28,7 @@ STATISTIQUES DU SITE
 Le site propose uniquement des compteurs de visites et de clics sur les téléchargements. Ils ne démarrent qu’après l’accord du visiteur. Aucun nom, e-mail, adresse IP ou identifiant individuel n’est enregistré. Le créateur peut ouvrir son espace pour exclure son navigateur des compteurs et consulter les totaux avec son secret privé.
 
 DISTRIBUTION
-Le site public est publié avec GitHub Pages. Les compteurs privés utilisent un Worker Cloudflare et une base D1 ; ils seront actifs après déploiement du Worker et raccordement de l’URL dans le site. Les fichiers de configuration sont dans le dossier site-analytics.
+Le site public est publié avec GitHub Pages. Les compteurs anonymes utilisent un Worker Cloudflare et une base D1 ; ils ne démarrent qu’après accord du visiteur. Aucun nom, e-mail, adresse IP ou identifiant individuel n’est enregistré. L’espace créateur permet de consulter les totaux avec le secret privé.
 
 NOUVEAUX GADGETS
 Calculatrice rapide, liste de tâches enregistrée sur l’appareil, tirage au sort, lecture vocale du texte sélectionné, générateur de dégradés CSS, convertisseur d’unités, chronomètre avec tours et générateur de mots de passe aléatoires. Le générateur de mots de passe travaille localement : il ne sauvegarde ni n’envoie le résultat.
