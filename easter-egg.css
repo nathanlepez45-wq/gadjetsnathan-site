@@ -74,3 +74,21 @@
 @media (prefers-reduced-motion: reduce) {
   .hotdog-trigger.hotdog-wiggle, .hotdog-party, .hotdog-party-card, .hotdog-party-main, .hotdog-confetti { animation-duration: .01ms !important; }
 }
+
+
+
+/* Mode secret permanent, style coucher de soleil hot-dog. */
+body.hotdog-unlocked { --bg:#171019; --panel:#24151e; --purple:#ffd16a; --line:#ffc85730; background:radial-gradient(ellipse at 85% 8%,#51291e 0,transparent 34%),#171019; }
+body.hotdog-unlocked .topbar { background:#21141bea; border-bottom-color:#ffc85755; }
+body.hotdog-unlocked .brand-mark { background:linear-gradient(140deg,#ffda6b,#ff754f); }
+body.hotdog-unlocked .hero { background:radial-gradient(ellipse at 72% 46%,#51291e 0,transparent 44%),radial-gradient(ellipse at 15% 8%,#39202a 0,transparent 40%); }
+body.hotdog-unlocked .eyebrow { color:#ffd16a; }
+body.hotdog-unlocked h1 span { color:#ffbd59; }
+body.hotdog-unlocked .primary { background:linear-gradient(120deg,#ffd16a,#ff8255); box-shadow:0 8px 34px #ff9b3d55; }
+body.hotdog-unlocked .feature { border-color:#ffc85742; box-shadow:inset 0 1px #ffc85712; }
+body.hotdog-unlocked .hotdog-trigger { opacity:1; filter:drop-shadow(0 0 9px #ffbb4e); animation:hotdog-secret-glow 1.4s ease-in-out infinite alternate; }
+@keyframes hotdog-secret-glow { to { transform:scale(1.2) rotate(-10deg); filter:drop-shadow(0 0 14px #ffdf7b); } }
+.hotdog-mode-badge { position:fixed; z-index:9998; right:18px; bottom:18px; display:inline-flex; align-items:center; gap:9px; padding:10px 13px; border:1px solid #ffdb7b99; border-radius:999px; background:linear-gradient(120deg,#39201c,#21151f); color:#ffe4a0; box-shadow:0 8px 28px #0007,0 0 22px #ffb74335; font:800 12px 'DM Sans',Arial,sans-serif; cursor:pointer; animation:hotdog-card-pop .4s cubic-bezier(.2,1.6,.45,1) both; }
+.hotdog-mode-badge:hover { transform:translateY(-2px); filter:brightness(1.15); }
+.hotdog-mode-off { display:grid; place-items:center; width:20px; height:20px; border-radius:50%; background:#ffffff18; font-size:17px; }
+@media (prefers-reduced-motion:reduce) { body.hotdog-unlocked .hotdog-trigger,.hotdog-mode-badge { animation-duration:.01ms!important; } }
